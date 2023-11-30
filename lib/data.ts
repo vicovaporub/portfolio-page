@@ -1,12 +1,13 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import pokedexImg from '../public/pokedexImg.jpg'
-import drummachineImg from '../public/drummachineImg.jpg'
-import tictactoeImg from '../public/tictactoeImg.jpg'
-import cakeshufflerImg from '../public/cakeshufflerImg.jpg'
-import pomodoroImg from '../public/pomodoroImg.jpg'
+import pokedexImg from '../public/projectImgs/pokedexImg.jpg'
+import drummachineImg from '../public/projectImgs/drummachineImg.jpg'
+import tictactoeImg from '../public/projectImgs/tictactoeImg.jpg'
+import cakeshufflerImg from '../public/projectImgs/cakeshufflerImg.jpg'
+import pomodoroImg from '../public/projectImgs/pomodoroImg.jpg'
+import cBackend from '../public/certificationImgs/cBackend.jpg'
+import cFrontend from '../public/certificationImgs/cFrontend.jpg'
+import cJavascriptAlgorithms from '../public/certificationImgs/cJavascriptAlgorithms.jpg'
+import cRelationalDatabase from '../public/certificationImgs/cRelationalDatabase.jpg'
+import cResponsiveWebdesign from '../public/certificationImgs/cResponsiveWebdesign.jpg'
 
 export const links = [
   {
@@ -29,10 +30,6 @@ export const links = [
     name: "Certification",
     hash: "#certification",
   },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
 ] as const;
 
 export const projectsData = [
@@ -41,64 +38,91 @@ export const projectsData = [
     description:
       "Pokedex build with Next.js, data fetched from PokeAPI, searchbar to get details from a single pokemon or pages with small cards for each pokemon of a generation of games.",
     tags: ["Pokedex", "React", "Next.js", "PokeAPI", "Typescript" ],
-    imageUrl: pokedexImg
+    imageUrl: pokedexImg,
+    githubLink: 'https://github.com/vicovaporub/pokedex-app'
   },
   {
     title: "Tic Tac Toe",
     description:
       "Functioning local tic tac toe game. Uses authentication to play because in the future it will be online multiplayer.",
     tags: ["TicTacToe", "React", "TypeScript", "Next.js", "OAuth"],
-    imageUrl: tictactoeImg
+    imageUrl: tictactoeImg,
+    githubLink: 'https://github.com/vicovaporub/tictactoe-app'
   },
   {
     title: "Cake Shuffler",
     description:
       "Simple app to help a friend deciding which cake she will bake. It has a form that recieves batter, filling and topping flavors of a cake, saves as a new cake in a MongoDB database and has a button that displays a random cake from the database to bake.",
     tags: ["React", "Next.js", "Express", "MongoDB"],
-    imageUrl: cakeshufflerImg
+    imageUrl: cakeshufflerImg,
+    githubLink: 'https://github.com/vicovaporub/cake-shuffler-frontend'
   },
   {
     title: "Pomodoro Timer",
     description:
       "FreeCodeCamp's project for frontend certification. Pomodoro Timer that starts counting down from 25 minutes down to 0, then starts a new countdown for 5 minutes and then repeats.",
     tags: ["Pomodoro Timer", "React"],
-    imageUrl: pomodoroImg
+    imageUrl: pomodoroImg,
+    githubLink: 'https://github.com/vicovaporub/fcc-pomodoro'
   },
   {
     title: "Drum Machine",
     description:
       "FreeCodeCamp's project for frontend certification. Simple Drum Machine that plays different sounds when a button is clicked or a key is pressed.",
     tags: ["Drum Machine", "React"],
-    imageUrl: drummachineImg
+    imageUrl: drummachineImg,
+    githubLink: 'https://github.com/vicovaporub/fcc-drum-machine'
   },
 ] as const;
 
 
-export const experiencesData = [
+export const certificationData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Responsive Web Design",
+    institution: "freeCodeCamp",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
+    date: "2023",
+    imageUrl: cResponsiveWebdesign,
+    certificationUrl: 'https://freecodecamp.org/certification/victorwho/responsive-web-design'
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "JavaScript Algorithms and Data Structures",
+    institution: "freeCodeCamp",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "While HTML and CSS control the content and styling of a page, JavaScript is used to make it interactive. In the JavaScript Algorithm and Data Structures Certification, you'll learn the fundamentals of JavaScript including variables, arrays, objects, loops, and functions.",
+    date: "2023",
+    imageUrl: cJavascriptAlgorithms,
+    certificationUrl: 'https://freecodecamp.org/certification/victorwho/javascript-algorithms-and-data-structures'
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Front End Development Libraries",
+    institution: "freeCodeCamp",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "In the Front End Development Libraries Certification, you'll learn how to style your site quickly with Bootstrap. You'll also learn how to add logic to your CSS styles and extend them with Sass. And learn how to work with React and Redux",
+    date: "2023",
+    imageUrl: cFrontend,
+    certificationUrl: 'http://freecodecamp.org/certification/victorwho/front-end-development-libraries'
   },
+  {
+    title: "Back End Development and APIs",
+    institution: "freeCodeCamp",
+    description:
+      "In the Back End Development and APIs Certification, you'll learn how to write back end apps with Node.js and npm. You'll also build web applications with the Express framework, and build a People Finder microservice with MongoDB and the Mongoose library.",
+    date: "2023",
+    imageUrl: cBackend,
+    certificationUrl: 'http://freecodecamp.org/certification/victorwho/back-end-development-and-apis'
+  },
+  {
+    title: "Relational Database",
+    institution: "freeCodeCamp",
+    description:
+      "For these courses, you will use real developer tools and software including VS Code, PostgreSQL, and the Linux / Unix command line to complete interactive tutorials and build projects.",
+    date: "2023",
+    imageUrl: cRelationalDatabase,
+    certificationUrl: 'https://freecodecamp.org/certification/victorwho/relational-database-v8'
+  },
+ 
 ] as const;
 
 

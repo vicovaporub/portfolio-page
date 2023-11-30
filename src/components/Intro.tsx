@@ -28,8 +28,8 @@ export default function Intro() {
           />
         </motion.div>
       </div>
-      <motion.p
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+      <motion.h1
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -40,7 +40,7 @@ export default function Intro() {
         server-side components while building small apps. But I can also work
         with full back-end code using <span className="font-bold">Express</span>
         .
-      </motion.p>
+      </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
@@ -48,7 +48,7 @@ export default function Intro() {
         transition={{ delay: 0.1 }}
       >
         <Link
-          href="#contact"
+          href="mailto:victor.castro34@gmail.com"
           className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110"
         >
           Contact me <BsArrowRight />
