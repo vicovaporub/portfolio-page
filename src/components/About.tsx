@@ -12,7 +12,7 @@ export const About = () => {
             <p className="mb-3 mt-4 px-4 !leading-[1.5]">
                 I have a bachelor degree in <span className='font-bold'>Defense and Strategic Management</span> and a Master degree in <span className='font-bold'>Communication and Semiotics</span>, but programming was always a part of my life. {' '}
             Mid-2023 I decided to give a chance to <span className='italic'>coding</span> and fell in love with all the possibilities I can do with it. I started with web development courses, <span className='underline'>HTML</span> and <span className='underline'>CSS</span>, then 
-            I followed up with <span className='underline'>JavaScript</span> so I could make it responsive. Then I ate up <span className='underline'>React</span> and <span className='underline'>Next.js</span> and learned how libraries and frameworks can help almost everything. I studied
+            I followed up with <span className='underline'>JavaScript</span> to give <span className='italic'>function</span> to it. Then I ate up <span className='underline'>React</span> and <span className='underline'>Next.js</span> and learned how libraries and frameworks can help almost everything. I studied
             back-end development too, <span className='underline'>PostgreSQL</span>, <span className='underline'>MongoDB</span> and databases in general, <span className='underline'>Express.js</span> and how to run servers so my apps can run smoothly.
             </p>
             <p className='mb-3 mt-4 px-4 !leading-[1.5]'>
