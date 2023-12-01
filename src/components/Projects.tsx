@@ -14,18 +14,17 @@ export const Projects = () => {
       <h2 className="text-3xl font-medium capitalize mb-8 text-center">Projects</h2>
       <div>
         {projectsData.map((projects, index) => (
+          <a href={projects.githubLink} target="_blank" key={index}>
           <div
             className="group bg-gray-100 max-w-[50rem] border border-black/5
              overflow-hidden
               sm:pr-8 sm:relative 
               sm:h-[20rem] mb-3 
               sm:mb-8 last:mb-0 sm:even:pl-8 hover:bg-gray-200 transition"
-            key={index}
+            
           >
             <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
-              <h3 className="text-2xl font-semibold">
-                <a className="hover:underline hover:text-blue-800" target="_blank" href={projects.githubLink}>{projects.title}</a>
-                </h3>
+              <h3 className="text-2xl font-semibold">{projects.title}</h3>
               <p className="mt-2 leading-relaxed text-gray-700">
                 {projects.description}
               </p>
@@ -56,6 +55,7 @@ export const Projects = () => {
               group-even:right-[initial] group-even:-left-40"
             />
           </div>
+          </a>
         ))}
       </div>
     </motion.section>

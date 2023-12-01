@@ -138,6 +138,6 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "MongoDB",
-  "Express",
+  "Express.js",
   "PostgreSQL",
 ] as const;

@@ -38,7 +38,7 @@ export default function Intro() {
         coding journey in <span className="underline">August/2023</span>. I'm a{" "}
         <span className="font-bold">Next.js</span> enjoyer, I love their
         server-side components while building small apps. But I can also work
-        with full back-end code using <span className="font-bold">Express</span>
+        with full back-end code using <span className="font-bold">Express.js</span>
         .
       </motion.h1>
       <motion.div
@@ -54,7 +54,7 @@ export default function Intro() {
           Contact me <BsArrowRight />
         </Link>
 
-        <a className="bg-gray-300 px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 cursor-pointer">
+        <a href="/CV/CV_Victor.pdf" download={true} className="bg-gray-300 px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 cursor-pointer">
           CV - Download <HiDownload />
         </a>
 
