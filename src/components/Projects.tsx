@@ -14,7 +14,7 @@ export const Projects = () => {
       <h2 className="text-3xl font-medium capitalize mb-8 text-center">Projects</h2>
       <div>
         {projectsData.map((projects, index) => (
-          <a href={projects.githubLink} target="_blank" key={index}>
+          <a href={projects.githubLink} target="_blank" key={index} className="sm:flex sm:flex-wrap sm:mt-4 sm:mb-2 sm:gap-2 ">
           <div
             className="group bg-gray-100 max-w-[50rem] border border-black/5
              overflow-hidden
@@ -31,7 +31,7 @@ export const Projects = () => {
               <ul className="flex flex-wrap mt-4 mb-2 gap-2 sm:mt-auto">
                 {projects.tags.map((tag, index) => (
                   <li
-                    className="bg-black/[0.5] px-2 py-[0.5] text-[0.5rem] uppercase tracking-wider text-white rounded-full "
+                    className="bg-black/[0.5] mt-2 px-2 py-[0.5] text-[0.5rem] uppercase tracking-wider text-white rounded-full "
                     key={index}
                   >
                     {tag}
