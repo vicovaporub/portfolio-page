@@ -24,7 +24,7 @@ export default function Intro() {
             height={192}
             quality={95}
             priority={true}
-            className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+            className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white dark:border-gray-700 shadow-xl"
           />
         </motion.div>
       </div>
@@ -38,8 +38,8 @@ export default function Intro() {
         coding journey in <span className="underline">August/2023</span>. I'm a{" "}
         <span className="font-bold">Next.js</span> enjoyer, I love their
         server-side components while building small apps. But I can also work
-        with full back-end code using <span className="font-bold">Express.js</span>
-        .
+        with full back-end code using{" "}
+        <span className="font-bold">Express.js</span>.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -49,19 +49,24 @@ export default function Intro() {
       >
         <Link
           href="mailto:victor.castro34@gmail.com"
-          className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110"
+          className="bg-gray-800 dark:bg-gray-300 dark:border dark:border-black dark:border-opacity-50 
+           dark:text-gray-300 text-white dark:text-gray-700 px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110"
         >
           Contact me <BsArrowRight />
         </Link>
 
-        <a href="/CV/CV_Victor.pdf" download={true} className="bg-gray-300 px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 cursor-pointer">
+        <a
+          href="/CV/CV_Victor.pdf"
+          download={true}
+          className="bg-gray-300 dark:bg-gray-700 dark:border-black dark:border-opacity-50  px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 cursor-pointer"
+        >
           CV - Download <HiDownload />
         </a>
 
         <a
           href="https://www.linkedin.com/in/victor-castro-73891833/"
           target="_blank"
-          className="bg-gray-300 px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 cursor-pointer"
+          className="bg-gray-300 dark:bg-gray-700 dark:border-black dark:border-opacity-50 px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 cursor-pointer"
         >
           <BsLinkedin />
         </a>
@@ -69,7 +74,7 @@ export default function Intro() {
         <a
           href="https://github.com/vicovaporub"
           target="_blank"
-          className="bg-gray-300 px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 cursor-pointer"
+          className="bg-gray-300 dark:bg-gray-700 dark:border-black dark:border-opacity-50 px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 cursor-pointer"
         >
           <BsGithub />
         </a>
