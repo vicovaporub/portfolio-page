@@ -28,7 +28,7 @@ export default function NavBar() {
         <ul
           className="flex w-[22rem] flex-wrap items-center 
         justify-center gap-y-1 text-[0.9rem] font-medium
-         text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-5"
+         text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-3"
         >
           {data.map((link) => (
             <motion.li
