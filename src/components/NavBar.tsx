@@ -2,9 +2,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { links } from "../../lib/data";
+import { brLinks } from "../../lib/brData";
 import Link from "next/link";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function NavBar() {
+  const { language } = useLanguage();
+  const data = language === "EN" ? links : brLinks;
+
   return (
     <header className="z-[999] relative">
       <motion.div
@@ -25,7 +30,7 @@ export default function NavBar() {
         justify-center gap-y-1 text-[0.9rem] font-medium
          text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-5"
         >
-          {links.map((link) => (
+          {data.map((link) => (
             <motion.li
               className="h-3/4 flex items-center justify-center"
               key={link.hash}

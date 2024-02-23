@@ -24,7 +24,7 @@ export default function Intro() {
             height={192}
             quality={95}
             priority={true}
-            className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white dark:border-gray-700 shadow-xl"
+            className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white dark:border-gray-500 shadow-xl"
           />
         </motion.div>
       </div>
@@ -50,7 +50,7 @@ export default function Intro() {
         <Link
           href="mailto:victor.castro34@gmail.com"
           className="bg-gray-800 dark:bg-gray-300 dark:border dark:border-black dark:border-opacity-50 
-           dark:text-gray-300 text-white dark:text-gray-700 px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110"
+            text-white dark:text-gray-700 px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110"
         >
           Contact me <BsArrowRight />
         </Link>
