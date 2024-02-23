@@ -14,7 +14,8 @@ export default function NavBar() {
     <header className="z-[999] relative">
       <motion.div
         className="fixed top-0 left-1/2 -translate-x-1/2 h-[4.5rem] w-full
-     rounded-none border border-white dark:border-black/40 border-opacity-40 dark:bg-opacity-60 bg-white dark:bg-gray-950 bg-opacity-80 shadow-lg
+     rounded-none border border-gray-700 dark:border-gray-300 border-opacity-40 
+     dark:bg-opacity-60 bg-white dark:bg-gray-950 bg-opacity-80 shadow-lg
       shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem]
        sm:w-[32rem] sm:rounded-full"
         initial={{ y: -100, x: "-50%", opacity: 0 }}

@@ -20,11 +20,11 @@ export const LightDark = () => {
   return (
     <>
       <button
-        className="fixed sm:top-10 sm:right-10 top-20 right-5 bg-gray-300
+        className="fixed sm:top-10 sm:right-10 top-20 right-5 bg-gray-300 dark:bg-gray-700
     w-[3rem] h-[3rem] bg-opacity-50 dark:bg-opacity-50 backdrop-blur-[0.5rem]
-    border border-white border-opacity-40 shadow-2x1
+    border border-gray-600 dark:border-gray-300  shadow-2x1
     rounded-full flex items-center justify-center hover:scale-[1.15]
-    active:scale-105 transition-all dark:bg-gray-700"
+    active:scale-105 transition-all "
         onClick={toggleTheme}
       >
         {theme === "light" ? <BsSun /> : <BsMoon />}

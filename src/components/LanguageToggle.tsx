@@ -10,7 +10,11 @@ export const LanguageToggle = () => {
       onClick={toggleLanguage}
       style={{ cursor: "pointer" }}
     >
-      <div className="border bg-gray-300 dark:bg-gray-700 border-gray-500 rounded-full px-2 py-2 mr-1 text-gray-700 dark:text-gray-300">
+      <div
+        className="border bg-gray-300 dark:bg-gray-700 border-gray-600
+        bg-opacity-50 rounded-full dark:border-gray-300 dark:bg-opacity-50
+       px-2 py-2 mr-1 text-gray-700 dark:text-gray-300"
+      >
         <span
           className={`px-2 py-1 ${
             language === "EN"
