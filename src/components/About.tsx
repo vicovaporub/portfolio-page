@@ -53,10 +53,9 @@ const PtbrAbout = () => {
         <span className="font-bold">
           Defesa e Gestão Estratégica Internacional
         </span>{" "}
-        e Mestre em
-        <span className="font-bold">Comunicação e Semiótica</span>, mas
-        programação sempre esteve por perto na minha vida. Na metade de 2023 eu
-        resolvi dar uma chance para a essa área de{" "}
+        e Mestre em <span className="font-bold">Comunicação e Semiótica</span>,
+        mas programação sempre esteve por perto na minha vida. Na metade de 2023
+        eu resolvi dar uma chance para a essa área de{" "}
         <span className="italic">código</span> e percebi como tinham tantas
         possibilidades de "criar" coisas novas que eu nem imaginava. Comecei com
         cursos de desenvolvimento web, <span className="underline">HTML</span> e{" "}
