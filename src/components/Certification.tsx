@@ -3,8 +3,12 @@ import { motion } from "framer-motion";
 import { certificationData } from "../../lib/data";
 import Image from "next/image";
 import Link from "next/link";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { brCertificationData } from "../../lib/brData";
 
 export const Certification = () => {
+  const { language } = useLanguage();
+  const data = language === "EN" ? certificationData : brCertificationData;
   return (
     <motion.section
       className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28 "
@@ -12,9 +16,13 @@ export const Certification = () => {
       animate={{ opacity: 1, y: 0 }}
       id="certification"
     >
-      <h2 className="text-3xl font-medium capitalize mb-8">Certification</h2>
+      {language === "EN" ? (
+        <h2 className="text-3xl font-medium capitalize mb-8">Certification</h2>
+      ) : (
+        <h2 className="text-3xl font-medium capitalize mb-8">Certificação</h2>
+      )}
       <div className="flex flex-wrap">
-        {[...certificationData].reverse().map((certification, index) => (
+        {[...data].reverse().map((certification, index) => (
           <Link
             href={certification.certificationUrl}
             target="_blank"

@@ -1,8 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
 import { skillsData } from "../../lib/data";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const Skills = () => {
+  const { language } = useLanguage();
+
   return (
     <motion.section
       className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40  scroll-mt-28"
@@ -10,9 +13,15 @@ export const Skills = () => {
       animate={{ opacity: 1, y: 0 }}
       id="skills"
     >
-      <h2 className="text-3xl font-medium capitalize mb-8 text-center">
-        Skills
-      </h2>
+      {language === "EN" ? (
+        <h2 className="text-3xl font-medium capitalize mb-8 text-center">
+          Skills
+        </h2>
+      ) : (
+        <h2 className="text-3xl font-medium capitalize mb-8 text-center">
+          Habilidades
+        </h2>
+      )}
       <ul className="flex flex-wrap justify-center text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <li

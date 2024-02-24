@@ -2,8 +2,12 @@
 import { motion } from "framer-motion";
 import { projectsData } from "../../lib/data";
 import Image from "next/image";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { brProjectsData } from "../../lib/brData";
 
 export const Projects = () => {
+  const { language } = useLanguage();
+  const data = language === "EN" ? projectsData : brProjectsData;
   return (
     <motion.section
       className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
@@ -11,11 +15,17 @@ export const Projects = () => {
       animate={{ opacity: 1, y: 0 }}
       id="projects"
     >
-      <h2 className="text-3xl font-medium capitalize mb-8 text-center">
-        Projects
-      </h2>
+      {language === "EN" ? (
+        <h2 className="text-3xl font-medium capitalize mb-8 text-center">
+          Projects
+        </h2>
+      ) : (
+        <h2 className="text-3xl font-medium capitalize mb-8 text-center">
+          Projetos
+        </h2>
+      )}
       <div>
-        {projectsData.map((projects, index) => (
+        {data.map((projects, index) => (
           <a
             href={projects.githubLink}
             target="_blank"

@@ -34,11 +34,11 @@ export const brLinks = [
   },
 ] as const;
 
-export const projectsData = [
+export const brProjectsData = [
   {
     title: "Pokedex",
     description:
-      "Pokedex build with Next.js, data fetched from PokeAPI, searchbar to get details from a single pokemon or pages with small cards for each pokemon of a generation of games.",
+      "Pokedex desenvolvida com Next.js, os dados obtidos são da PokeAPI, este projeto conta com uma barra de busca que pega detalhes do pokémon buscado e também conta com páginas contendo cards giratórios de cada pokémon por geração.",
     tags: ["Pokedex", "React", "Next.js", "PokeAPI", "Typescript"],
     imageUrl: pokedexImg,
     githubLink: "https://github.com/vicovaporub/pokedex-app",
@@ -46,15 +46,14 @@ export const projectsData = [
   {
     title: "Tic Tac Toe",
     description:
-      "Functioning local tic tac toe game. Uses authentication to play because in the future it will be online multiplayer.",
+      "Jogo da velha funcionando localmente, há planos para adicionar a funcionalidade multi-jogador online no futuro utilizando WebSockets.",
     tags: ["TicTacToe", "React", "TypeScript", "Next.js", "OAuth"],
     imageUrl: tictactoeImg,
     githubLink: "https://github.com/vicovaporub/tictactoe-app",
   },
   {
     title: "Cake Shuffler",
-    description:
-      "Simple app to help a friend deciding which cake she will bake. It has a form that recieves batter, filling and topping flavors of a cake, saves as a new cake in a MongoDB database and has a button that displays a random cake from the database to bake.",
+    description: `Simples projeto de "bolo aleatório" feito para uma amiga, contém um formulário que salva um "novo bolo" em uma base de dados no MongoDB e um botão que vai buscar um bolo aleatório desta base de dados e mostrar na tela.`,
     tags: ["React", "Next.js", "Express", "MongoDB"],
     imageUrl: cakeshufflerImg,
     githubLink: "https://github.com/vicovaporub/cake-shuffler-frontend",
@@ -62,7 +61,7 @@ export const projectsData = [
   {
     title: "Pomodoro Timer",
     description:
-      "FreeCodeCamp's project for frontend certification. Pomodoro Timer that starts counting down from 25 minutes down to 0, then starts a new countdown for 5 minutes and then repeats.",
+      "Projeto necessário para a certificação frontend do freeCodeCamp. Um relógio pomodoro que, por padrão, começa uma contagem regressiva de 25 minutos até 0 e então uma nova contagem de 5 à 0 e volta a repetir.",
     tags: ["Pomodoro Timer", "React"],
     imageUrl: pomodoroImg,
     githubLink: "https://github.com/vicovaporub/fcc-pomodoro",
@@ -70,19 +69,19 @@ export const projectsData = [
   {
     title: "Drum Machine",
     description:
-      "FreeCodeCamp's project for frontend certification. Simple Drum Machine that plays different sounds when a button is clicked or a key is pressed.",
+      "Projeto necessário para a certificação frontend do freeCodeCamp. Um simples display com alguns botões que, quando clicados ou quando pressionada a tecla específica, tocam um som.",
     tags: ["Drum Machine", "React"],
     imageUrl: drummachineImg,
     githubLink: "https://github.com/vicovaporub/fcc-drum-machine",
   },
 ] as const;
 
-export const certificationData = [
+export const brCertificationData = [
   {
     title: "Responsive Web Design",
     institution: "freeCodeCamp",
     description:
-      "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
+      "Neste curso de Certificação em Design Responsivo para Web, você aprenderá as linguagens que os desenvolvedores usam para construir páginas web: HTML (Hypertext Markup Language) para conteúdo e CSS (Cascading Style Sheets) para design.",
     date: "2023",
     imageUrl: cResponsiveWebdesign,
     certificationUrl:
@@ -92,7 +91,7 @@ export const certificationData = [
     title: "JavaScript Algorithms and Data Structures",
     institution: "freeCodeCamp",
     description:
-      "While HTML and CSS control the content and styling of a page, JavaScript is used to make it interactive. In the JavaScript Algorithm and Data Structures Certification, you'll learn the fundamentals of JavaScript including variables, arrays, objects, loops, and functions.",
+      "Enquanto HTML e CSS controlam o conteúdo e o estilo de uma página, o JavaScript é usado para torná-la interativa. Na Certificação em Algoritmos e Estrutura de Dados em JavaScript, você aprenderá os fundamentos do JavaScript, incluindo variáveis, arrays, objetos, loops e funções.",
     date: "2023",
     imageUrl: cJavascriptAlgorithms,
     certificationUrl:
@@ -102,7 +101,7 @@ export const certificationData = [
     title: "Front End Development Libraries",
     institution: "freeCodeCamp",
     description:
-      "In the Front End Development Libraries Certification, you'll learn how to style your site quickly with Bootstrap. You'll also learn how to add logic to your CSS styles and extend them with Sass. And learn how to work with React and Redux",
+      "Na Certificação em Bibliotecas de Desenvolvimento Front-End, você aprenderá a estilizar seu site rapidamente com o Bootstrap. Você também aprenderá a adicionar lógica aos seus estilos CSS e a estendê-los com Sass. Além disso, aprenderá a trabalhar com React e Redux.",
     date: "2023",
     imageUrl: cFrontend,
     certificationUrl:
@@ -112,7 +111,7 @@ export const certificationData = [
     title: "Back End Development and APIs",
     institution: "freeCodeCamp",
     description:
-      "In the Back End Development and APIs Certification, you'll learn how to write back end apps with Node.js and npm. You'll also build web applications with the Express framework, and build a People Finder microservice with MongoDB and the Mongoose library.",
+      "Na Certificação em Desenvolvimento de Back-End e APIs, você aprenderá a escrever aplicativos de back-end com Node.js e npm. Você também construirá aplicações web com o framework Express e criará um microserviço de busca de pessoas com MongoDB e a biblioteca Mongoose.",
     date: "2023",
     imageUrl: cBackend,
     certificationUrl:
@@ -122,7 +121,7 @@ export const certificationData = [
     title: "Relational Database",
     institution: "freeCodeCamp",
     description:
-      "For these courses, you will use real developer tools and software including VS Code, PostgreSQL, and the Linux / Unix command line to complete interactive tutorials and build projects.",
+      "Para estes cursos, você utilizará ferramentas e softwares reais de desenvolvimento, incluindo o VS Code, PostgreSQL e a linha de comando do Linux/Unix, para completar tutoriais interativos e construir projetos.",
     date: "2023",
     imageUrl: cRelationalDatabase,
     certificationUrl:
@@ -132,7 +131,7 @@ export const certificationData = [
     title: "Imersão Front-End",
     institution: "Alura",
     description:
-      "Front-end course where students learn how to create a Spotify clone using React",
+      "Curso de front-end onde os alunos aprendem a criar um clone do Spotify usando React.",
     date: "2024",
     imageUrl: cFrontEndAlura,
     certificationUrl:
@@ -142,7 +141,7 @@ export const certificationData = [
     title: "JavaScript Algorithms and Data Structures (Beta)",
     institution: "freeCodeCamp",
     description:
-      "This course has similar structure from the first JS course, and you'll also learn about Object Oriented Programming (OOP), Functional Programming, algorithmic thinking, how to work with local storage, and how to fetch data using an API.",
+      "Este curso tem uma estrutura semelhante ao primeiro curso de JS, e você também aprenderá sobre Programação Orientada a Objetos (OOP), Programação Funcional, pensamento algorítmico, como trabalhar com armazenamento local e como buscar dados usando uma API.",
     date: "2024",
     imageUrl: cJSAlgBeta,
     certificationUrl:

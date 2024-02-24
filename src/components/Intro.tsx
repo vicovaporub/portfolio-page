@@ -26,7 +26,7 @@ const PtbrIntro = () => {
       Olá, meu nome é <span className="font-bold">Victor</span>. Sou um{" "}
       <span className="font-bold">desenvolvedor web</span> em formação e comecei
       minha jornada com código em <span className="underline">Agosto/2023</span>
-      . Tenho experiência com, e gosto de usar o{" "}
+      . Tenho experiência com, e gosto de usar, o{" "}
       <span className="font-bold">Next.js</span> pela ótima funcionalidade dos
       componentes de servidor enquanto desenvolvo pequenos apps. Mas também sei
       trabalhar com backend puro usando{" "}
@@ -55,7 +55,7 @@ export default function Intro() {
             height={192}
             quality={95}
             priority={true}
-            className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white dark:border-gray-700 shadow-xl"
+            className="h-24 w-24 rounded-full select-none object-cover border-[0.35rem] border-white dark:border-gray-700 shadow-xl"
           />
         </motion.div>
       </div>
