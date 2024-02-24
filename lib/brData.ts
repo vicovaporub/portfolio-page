@@ -36,15 +36,15 @@ export const brLinks = [
 
 export const brProjectsData = [
   {
-    title: "Pokedex",
+    title: "Pokédex",
     description:
-      "Pokedex desenvolvida com Next.js, os dados obtidos são da PokeAPI, este projeto conta com uma barra de busca que pega detalhes do pokémon buscado e também conta com páginas contendo cards giratórios de cada pokémon por geração.",
+      "Pokédex desenvolvida com Next.js, os dados obtidos são da PokeAPI, este projeto conta com uma barra de busca que pega detalhes do pokémon buscado e também conta com páginas contendo cards giratórios de cada pokémon por geração.",
     tags: ["Pokedex", "React", "Next.js", "PokeAPI", "Typescript"],
     imageUrl: pokedexImg,
     githubLink: "https://github.com/vicovaporub/pokedex-app",
   },
   {
-    title: "Tic Tac Toe",
+    title: "Jogo da Velha",
     description:
       "Jogo da velha funcionando localmente, há planos para adicionar a funcionalidade multi-jogador online no futuro utilizando WebSockets.",
     tags: ["TicTacToe", "React", "TypeScript", "Next.js", "OAuth"],
@@ -52,14 +52,14 @@ export const brProjectsData = [
     githubLink: "https://github.com/vicovaporub/tictactoe-app",
   },
   {
-    title: "Cake Shuffler",
+    title: "Bolo Aleatório",
     description: `Simples projeto de "bolo aleatório" feito para uma amiga, contém um formulário que salva um "novo bolo" em uma base de dados no MongoDB e um botão que vai buscar um bolo aleatório desta base de dados e mostrar na tela.`,
     tags: ["React", "Next.js", "Express", "MongoDB"],
     imageUrl: cakeshufflerImg,
     githubLink: "https://github.com/vicovaporub/cake-shuffler-frontend",
   },
   {
-    title: "Pomodoro Timer",
+    title: "Relógio Pomodoro",
     description:
       "Projeto necessário para a certificação frontend do freeCodeCamp. Um relógio pomodoro que, por padrão, começa uma contagem regressiva de 25 minutos até 0 e então uma nova contagem de 5 à 0 e volta a repetir.",
     tags: ["Pomodoro Timer", "React"],
@@ -67,7 +67,7 @@ export const brProjectsData = [
     githubLink: "https://github.com/vicovaporub/fcc-pomodoro",
   },
   {
-    title: "Drum Machine",
+    title: "Bateria Eletrônica",
     description:
       "Projeto necessário para a certificação frontend do freeCodeCamp. Um simples display com alguns botões que, quando clicados ou quando pressionada a tecla específica, tocam um som.",
     tags: ["Drum Machine", "React"],
