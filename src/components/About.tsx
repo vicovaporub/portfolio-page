@@ -7,9 +7,9 @@ const EnAbout = () => {
     <>
       <h2 className="text-3xl font-medium capitalize mb-8">About me</h2>
       <p className="mb-3 mt-4 px-4 !leading-[1.5]">
-        I have a bachelor degree in{" "}
+        I have a <span className="italic">Bachelor's</span> degree in{" "}
         <span className="font-bold">Defense and Strategic Management</span> and
-        a Master degree in{" "}
+        a <span className="italic">Master's</span> degree in{" "}
         <span className="font-bold">Communication and Semiotics</span>, but
         programming was always a part of my life. Mid-2023 I decided to give a
         chance to <span className="italic">coding</span> and fell in love with
@@ -20,8 +20,8 @@ const EnAbout = () => {
         <span className="italic">function</span> to it. Then I ate up{" "}
         <span className="underline">React</span> and{" "}
         <span className="underline">Next.js</span> and learned how libraries and
-        frameworks can help almost everything. I studied back-end development
-        too, <span className="underline">PostgreSQL</span>,{" "}
+        frameworks can help with almost everything. I studied back-end
+        development too, <span className="underline">PostgreSQL</span>,{" "}
         <span className="underline">MongoDB</span> and databases in general,{" "}
         <span className="underline">Express.js</span> and how to run servers so
         my apps can run smoothly.
@@ -49,13 +49,14 @@ const PtbrAbout = () => {
     <>
       <h2 className="text-3xl font-medium capitalize mb-8">Sobre</h2>
       <p className="mb-3 mt-4 px-4 !leading-[1.5]">
-        Eu sou bacharel em{" "}
+        Eu sou <span className="italic">Bacharel</span> em{" "}
         <span className="font-bold">
           Defesa e Gestão Estratégica Internacional
         </span>{" "}
-        e Mestre em <span className="font-bold">Comunicação e Semiótica</span>,
-        mas programação sempre esteve por perto na minha vida. Na metade de 2023
-        eu resolvi dar uma chance para a essa área de{" "}
+        e <span className="italic">Mestre</span> em{" "}
+        <span className="font-bold">Comunicação e Semiótica</span>, mas
+        programação sempre esteve por perto na minha vida. Na metade de 2023 eu
+        resolvi dar uma chance para a essa área de{" "}
         <span className="italic">código</span> e percebi como tinham tantas
         possibilidades de "criar" coisas novas que eu nem imaginava. Comecei com
         cursos de desenvolvimento web, <span className="underline">HTML</span> e{" "}

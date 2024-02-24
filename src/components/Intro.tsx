@@ -10,9 +10,12 @@ import { useLanguage } from "@/contexts/LanguageContext";
 const EnIntro = () => {
   return (
     <div>
-      Hello, my name is <span className="font-bold">Victor</span>. I'm an
-      aspiring <span className="font-bold">web developer</span> and started my
-      coding journey in <span className="underline">August/2023</span>. I'm a{" "}
+      Hello, my name is <span className="font-bold">Victor</span>, welcome to my{" "}
+      <span className="italic">Portifolio Page</span> built with{" "}
+      <span className="font-bold">Next.js</span> and styled with{" "}
+      <span className="font-bold">Tailwind</span>. I'm an aspiring{" "}
+      <span className="font-bold">web developer</span> and started my coding
+      journey in <span className="underline">August/2023</span>. I'm a{" "}
       <span className="font-bold">Next.js</span> enjoyer, I love their
       server-side components while building small apps. But I can also work with
       full back-end code using <span className="font-bold">Express.js</span>.
@@ -23,13 +26,16 @@ const EnIntro = () => {
 const PtbrIntro = () => {
   return (
     <div>
-      Olá, meu nome é <span className="font-bold">Victor</span>. Sou um{" "}
+      Olá, meu nome é <span className="font-bold">Victor</span> e este é o meu{" "}
+      <span className="italic">Portifolio</span>, ele foi produzido utilizando{" "}
+      <span className="font-bold">Next.js</span> e estilizado com{" "}
+      <span className="font-bold">Tailwind</span>. Sou um{" "}
       <span className="font-bold">desenvolvedor web</span> em formação e comecei
       minha jornada com código em <span className="underline">Agosto/2023</span>
-      . Tenho experiência com, e gosto de usar, o{" "}
+      . Tenho experiência (e preferência em utilizar) o{" "}
       <span className="font-bold">Next.js</span> pela ótima funcionalidade dos
-      componentes de servidor enquanto desenvolvo pequenos apps. Mas também sei
-      trabalhar com backend puro usando{" "}
+      componentes de servidor enquanto desenvolvo páginas menos complexas. Mas
+      também sei trabalhar com backend puro usando{" "}
       <span className="font-bold">Express.js</span>.
     </div>
   );
