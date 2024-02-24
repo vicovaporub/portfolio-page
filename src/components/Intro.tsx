@@ -88,7 +88,7 @@ export default function Intro() {
         </Link>
 
         <a
-          href="/CV/CV_Victor.pdf"
+          href="/CV/CV_Victor_Feb_2024_EN.pdf"
           download={true}
           className="bg-gray-300 dark:bg-gray-700 dark:border-black dark:border-opacity-50  px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 cursor-pointer"
         >
