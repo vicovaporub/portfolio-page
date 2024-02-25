@@ -80,36 +80,60 @@ export default function Intro() {
       >
         <Link
           href="mailto:victor.castro34@gmail.com"
-          className="bg-gray-800 dark:bg-gray-300 dark:border dark:border-black dark:border-opacity-50 
+          className="bg-gray-800 border border-gray-900
+           dark:bg-gray-300 dark:border dark:border-black
             text-white dark:text-gray-700 px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110"
         >
           {language === "EN" ? <div>Contact-me</div> : <div>Contato</div>}{" "}
           <BsArrowRight />
         </Link>
 
-        <a
-          href="/CV/CV_Victor_Feb_2024_EN.pdf"
-          download={true}
-          className="bg-gray-300 dark:bg-gray-700 dark:border-black dark:border-opacity-50  px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 cursor-pointer"
-        >
-          CV - Download <HiDownload />
-        </a>
+        {language === "EN" ? (
+          <a
+            href="/CV/CV_Victor_Feb_2024_enUS.pdf"
+            download={true}
+            className="bg-gray-300 border border-gray-700 dark:bg-gray-700
+             dark:border-gray-300
+              px-7 py-3 flex items-center gap-2 rounded-full
+              focus:scale-110 hover:scale-110 cursor-pointer"
+          >
+            CV - Download(en-US) <HiDownload />
+          </a>
+        ) : (
+          <a
+            href="/CV/CV_Victor_Fev_2024_ptBR.pdf"
+            download={true}
+            className="bg-gray-300 dark:bg-gray-700
+            dark:border-gray-300 border border-gray-700
+              px-7 py-3 flex items-center gap-2 rounded-full
+               focus:scale-110 hover:scale-110 cursor-pointer"
+          >
+            CV - Download(pt-BR) <HiDownload />
+          </a>
+        )}
+        <div className="flex justify-center items-center gap-1">
+          <a
+            href="https://www.linkedin.com/in/victor-castro-73891833/"
+            target="_blank"
+            className="bg-gray-300 dark:bg-gray-700
+            border border-gray-700 dark:border-gray-300
+             px-7 py-3 flex items-center
+              gap-2 rounded-full focus:scale-110 hover:scale-110 cursor-pointer"
+          >
+            <BsLinkedin />
+          </a>
 
-        <a
-          href="https://www.linkedin.com/in/victor-castro-73891833/"
-          target="_blank"
-          className="bg-gray-300 dark:bg-gray-700 dark:border-black dark:border-opacity-50 px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 cursor-pointer"
-        >
-          <BsLinkedin />
-        </a>
-
-        <a
-          href="https://github.com/vicovaporub"
-          target="_blank"
-          className="bg-gray-300 dark:bg-gray-700 dark:border-black dark:border-opacity-50 px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 cursor-pointer"
-        >
-          <BsGithub />
-        </a>
+          <a
+            href="https://github.com/vicovaporub"
+            target="_blank"
+            className="bg-gray-300 dark:bg-gray-700
+            border border-gray-700 dark:border-gray-300
+             px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 
+             hover:scale-110 cursor-pointer"
+          >
+            <BsGithub />
+          </a>
+        </div>
       </motion.div>
     </section>
   );
