@@ -10,6 +10,7 @@ import cRelationalDatabase from "../public/certificationImgs/cRelationalDatabase
 import cResponsiveWebdesign from "../public/certificationImgs/cResponsiveWebdesign.jpg";
 import cJSAlgBeta from "../public/certificationImgs/cJSAlgBeta.jpg";
 import cFrontEndAlura from "../public/certificationImgs/cFrontEndAlura.jpg";
+import timezoneImg from "../public/projectImgs/timezoneImg.jpg";
 
 export const links = [
   {
@@ -50,6 +51,14 @@ export const projectsData = [
     tags: ["TicTacToe", "React", "TypeScript", "Next.js", "OAuth"],
     imageUrl: tictactoeImg,
     githubLink: "https://github.com/vicovaporub/tictactoe-app",
+  },
+  {
+    title: "Timezone Checker",
+    description:
+      "Simple page that displays the timezone from São Paulo and Los Angeles.",
+    tags: ["React", "Timezone API", "TypeScript", "Tailwind CSS"],
+    imageUrl: timezoneImg,
+    githubLink: "https://github.com/vicovaporub/timezone-app",
   },
   {
     title: "Cake Shuffler",

@@ -10,6 +10,7 @@ import cRelationalDatabase from "../public/certificationImgs/cRelationalDatabase
 import cResponsiveWebdesign from "../public/certificationImgs/cResponsiveWebdesign.jpg";
 import cJSAlgBeta from "../public/certificationImgs/cJSAlgBeta.jpg";
 import cFrontEndAlura from "../public/certificationImgs/cFrontEndAlura.jpg";
+import timezoneImg from "../public/projectImgs/timezoneImg.jpg";
 
 export const brLinks = [
   {
@@ -50,6 +51,14 @@ export const brProjectsData = [
     tags: ["TicTacToe", "React", "TypeScript", "Next.js", "OAuth"],
     imageUrl: tictactoeImg,
     githubLink: "https://github.com/vicovaporub/tictactoe-app",
+  },
+  {
+    title: "Timezone Checker",
+    description:
+      "Simples página que mostra o fuso horário entre São Paulo e Los Angeles.",
+    tags: ["React", "Timezone API", "TypeScript", "Tailwind CSS"],
+    imageUrl: timezoneImg,
+    githubLink: "https://github.com/vicovaporub/timezone-app",
   },
   {
     title: "Bolo Aleatório",

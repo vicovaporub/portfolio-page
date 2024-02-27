@@ -10,7 +10,8 @@ export const Projects = () => {
   const data = language === "EN" ? projectsData : brProjectsData;
   return (
     <motion.section
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[45rem]
+       text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       id="projects"
@@ -30,11 +31,11 @@ export const Projects = () => {
             href={projects.githubLink}
             target="_blank"
             key={index}
-            className="sm:flex sm:flex-wrap sm:mt-4 sm:mb-2 sm:gap-2 "
+            className="sm:flex sm:flex-wrap sm:mt-4 sm:mb-2 sm:gap-2"
           >
             <div
               className="group bg-gray-100 dark:bg-gray-700
-               max-w-[50rem] border border-black/5
+               sm:w-[50rem] border border-black/5
              overflow-hidden
               sm:pr-8 sm:relative 
               sm:h-[20rem] mb-3 
