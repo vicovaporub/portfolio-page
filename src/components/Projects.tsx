@@ -34,12 +34,13 @@ export const Projects = () => {
             className="sm:flex sm:flex-wrap sm:mt-4 sm:mb-2 sm:gap-2"
           >
             <div
-              className="group bg-gray-100 dark:bg-gray-700
+              className="group bg-gray-100
+              rounded-xl dark:bg-gray-700
                sm:w-[50rem] border border-black/5
              overflow-hidden
               sm:pr-8 sm:relative 
               sm:h-[20rem] mb-3 
-              sm:mb-8 last:mb-0 sm:even:pl-8 hover:bg-gray-200
+              sm:mb-8 sm:even:pl-8 hover:bg-gray-200
                dark:hover:bg-gray-600 transition"
             >
               <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
@@ -47,7 +48,7 @@ export const Projects = () => {
                 <p className="mt-2 leading-relaxed text-gray-700 dark:text-gray-300">
                   {projects.description}
                 </p>
-                <ul className="flex flex-wrap mt-4 mb-2 gap-2 sm:mt-auto">
+                <ul className="flex flex-wrap items-center justify-center mt-4 mb-2 gap-2 sm:mt-auto">
                   {projects.tags.map((tag, index) => (
                     <li
                       className="bg-black/[0.5] dark:bg-gray-800 mt-2 px-2 py-[0.5] text-[0.5rem] uppercase tracking-wider text-white rounded-full "
@@ -62,7 +63,9 @@ export const Projects = () => {
               <Image
                 src={projects.imageUrl}
                 alt="Project I worked on"
-                className="sm:absolute top-8 -right-40 sm:w-[28.25rem] rounded-t-lg shadow-2xl w-[20rem] ml-5
+                className="sm:absolute
+                border-gray-300 dark:border-gray-700 border top-8 -right-40 sm:w-[28.25rem]
+                 rounded-t-lg shadow-2xl w-[20rem] ml-[4.5rem]
               transition
               group-hover:-translate-x-3
               group-hover:translate-y-3

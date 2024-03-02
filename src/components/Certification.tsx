@@ -26,7 +26,7 @@ export const Certification = () => {
           <Link
             href={certification.certificationUrl}
             target="_blank"
-            className="group bg-gray-100 sm:w-[50rem] dark:bg-gray-800
+            className="group rounded-xl bg-gray-100 sm:w-[50rem] dark:bg-gray-800
                      border border-black/5 overflow-hidden sm:pr-8 sm:h-fit
                      mb-3 sm:mb-8 last:mb-0 p-8 hover:bg-gray-200 dark:hover:bg-gray-600 transition group"
             key={index}
