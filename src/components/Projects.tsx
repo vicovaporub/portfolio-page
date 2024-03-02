@@ -65,7 +65,7 @@ export const Projects = () => {
                 alt="Project I worked on"
                 className="sm:absolute
                 border-gray-300 dark:border-gray-700 border top-8 -right-40 sm:w-[28.25rem]
-                 rounded-t-lg shadow-2xl w-[20rem] ml-[4.5rem]
+                 rounded-t-lg shadow-2xl w-[20rem] ml-[2rem]
               transition
               group-hover:-translate-x-3
               group-hover:translate-y-3
