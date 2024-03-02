@@ -11,6 +11,7 @@ import cResponsiveWebdesign from "../public/certificationImgs/cResponsiveWebdesi
 import cJSAlgBeta from "../public/certificationImgs/cJSAlgBeta.jpg";
 import cFrontEndAlura from "../public/certificationImgs/cFrontEndAlura.jpg";
 import timezoneImg from "../public/projectImgs/timezoneImg.jpg";
+import portifolioPageImg from "../public/projectImgs/portifolioPageImg.jpg";
 
 export const links = [
   {
@@ -55,7 +56,7 @@ export const projectsData = [
   {
     title: "Timezone Checker",
     description:
-      "Simple page that displays the timezone from São Paulo and Los Angeles.",
+      "Simple page that display the difference between the timezone in São Paulo and other places (Los Angeles as default).",
     tags: ["React", "Timezone API", "TypeScript", "Tailwind CSS"],
     imageUrl: timezoneImg,
     githubLink: "https://github.com/vicovaporub/timezone-app",
@@ -64,9 +65,17 @@ export const projectsData = [
     title: "Cake Shuffler",
     description:
       "Simple app to help a friend deciding which cake she will bake. It has a form that recieves batter, filling and topping flavors of a cake, saves as a new cake in a MongoDB database and has a button that displays a random cake from the database to bake.",
-    tags: ["React", "Next.js", "Express", "MongoDB"],
+    tags: ["React", "Next.js", "Express", "MongoDB", "TypeScript"],
     imageUrl: cakeshufflerImg,
     githubLink: "https://github.com/vicovaporub/cake-shuffler-frontend",
+  },
+  {
+    title: "Portifolio Page",
+    description:
+      "This page that you are seeing right now. It was built with Next.js and Tailwind CSS. It has a dark and light mode, it has a language switcher (en-US -> pt-BR) and it is responsive.",
+    tags: ["Portifolio", "Next.js", "Tailwind CSS", "React"],
+    imageUrl: portifolioPageImg,
+    githubLink: `https://github.com/vicovaporub/portifolio`,
   },
   {
     title: "Pomodoro Timer",

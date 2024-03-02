@@ -11,6 +11,7 @@ import cResponsiveWebdesign from "../public/certificationImgs/cResponsiveWebdesi
 import cJSAlgBeta from "../public/certificationImgs/cJSAlgBeta.jpg";
 import cFrontEndAlura from "../public/certificationImgs/cFrontEndAlura.jpg";
 import timezoneImg from "../public/projectImgs/timezoneImg.jpg";
+import portifolioPageImg from "../public/projectImgs/portifolioPageImg.jpg";
 
 export const brLinks = [
   {
@@ -48,7 +49,7 @@ export const brProjectsData = [
     title: "Jogo da Velha",
     description:
       "Jogo da velha funcionando localmente, há planos para adicionar a funcionalidade multi-jogador online no futuro utilizando WebSockets.",
-    tags: ["TicTacToe", "React", "TypeScript", "Next.js", "OAuth"],
+    tags: ["Jogo da Velha", "React", "TypeScript", "Next.js", "OAuth"],
     imageUrl: tictactoeImg,
     githubLink: "https://github.com/vicovaporub/tictactoe-app",
   },
@@ -63,15 +64,23 @@ export const brProjectsData = [
   {
     title: "Bolo Aleatório",
     description: `Simples projeto de "bolo aleatório" feito para uma amiga, contém um formulário que salva um "novo bolo" em uma base de dados no MongoDB e um botão que vai buscar um bolo aleatório desta base de dados e mostrar na tela.`,
-    tags: ["React", "Next.js", "Express", "MongoDB"],
+    tags: ["React", "Next.js", "Express", "MongoDB", "TypeScript"],
     imageUrl: cakeshufflerImg,
     githubLink: "https://github.com/vicovaporub/cake-shuffler-frontend",
+  },
+  {
+    title: "Portifólio",
+    description:
+      "Esta página que você está vendo agora. Foi construída com Next.js e Tailwind CSS. Tem um modo escuro e claro, tem um seletor de idioma (en-US -> pt-BR) e é responsiva.",
+    tags: ["Portifolio", "Next.js", "Tailwind CSS", "React"],
+    imageUrl: portifolioPageImg,
+    githubLink: "https://github.com/vicovaporub/portifolio",
   },
   {
     title: "Relógio Pomodoro",
     description:
       "Projeto necessário para a certificação frontend do freeCodeCamp. Um relógio pomodoro que, por padrão, começa uma contagem regressiva de 25 minutos até 0 e então uma nova contagem de 5 à 0 e volta a repetir.",
-    tags: ["Pomodoro Timer", "React"],
+    tags: ["Relógio Pomodoro", "React"],
     imageUrl: pomodoroImg,
     githubLink: "https://github.com/vicovaporub/fcc-pomodoro",
   },
@@ -79,7 +88,7 @@ export const brProjectsData = [
     title: "Bateria Eletrônica",
     description:
       "Projeto necessário para a certificação frontend do freeCodeCamp. Um simples display com alguns botões que, quando clicados ou quando pressionada a tecla específica, tocam um som.",
-    tags: ["Drum Machine", "React"],
+    tags: ["Bateria Eletrônica", "React"],
     imageUrl: drummachineImg,
     githubLink: "https://github.com/vicovaporub/fcc-drum-machine",
   },
