@@ -36,11 +36,9 @@ export const Projects = () => {
             <div
               className="group bg-gray-100
               rounded-xl dark:bg-gray-700
-               sm:w-[50rem] border border-black/5
-             overflow-hidden
-              sm:pr-8 sm:relative 
-              sm:h-[20rem] mb-3 
-              sm:mb-8 sm:even:pl-8 hover:bg-gray-200
+               sm:w-[50rem] border border-black/5 overflow-hidden
+              sm:pr-8 sm:relative sm:max-h-[23rem] mb-3 
+              sm:mb-2 sm:even:pl-8 hover:bg-gray-200
                dark:hover:bg-gray-600 transition"
             >
               <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
