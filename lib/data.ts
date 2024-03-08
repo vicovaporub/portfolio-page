@@ -12,6 +12,7 @@ import cJSAlgBeta from "../public/certificationImgs/cJSAlgBeta.jpg";
 import cFrontEndAlura from "../public/certificationImgs/cFrontEndAlura.jpg";
 import timezoneImg from "../public/projectImgs/timezoneImg.jpg";
 import portifolioPageImg from "../public/projectImgs/portifolioPageImg.jpg";
+import currencyExchangeImg from "../public/projectImgs/currencyExchangeImg.jpg";
 
 export const links = [
   {
@@ -54,9 +55,23 @@ export const projectsData = [
     githubLink: "https://github.com/vicovaporub/tictactoe-app",
   },
   {
+    title: "BRL Currency Exchange",
+    description:
+      "Simple currency exchange app that fetches data from a exchange rate API and lets the user convert BRL to other currencies.",
+    tags: [
+      "Currency Exchange",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "React",
+    ],
+    imageUrl: currencyExchangeImg,
+    githubLink: "https://github.com/vicovaporub/brl-currency-exchange-app",
+  },
+  {
     title: "Timezone Checker",
     description:
-      "Simple page that display the difference between the timezone in São Paulo and other places (Los Angeles as default).",
+      "Simple page that displays that fetches data from a timezone API and displays the time in São Paulo (fixed) and in other places (Los Angeles as default).",
     tags: ["React", "Timezone API", "TypeScript", "Tailwind CSS"],
     imageUrl: timezoneImg,
     githubLink: "https://github.com/vicovaporub/timezone-app",

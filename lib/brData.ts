@@ -12,6 +12,7 @@ import cJSAlgBeta from "../public/certificationImgs/cJSAlgBeta.jpg";
 import cFrontEndAlura from "../public/certificationImgs/cFrontEndAlura.jpg";
 import timezoneImg from "../public/projectImgs/timezoneImg.jpg";
 import portifolioPageImg from "../public/projectImgs/portifolioPageImg.jpg";
+import currencyExchangeImg from "../public/projectImgs/currencyExchangeImg.jpg";
 
 export const brLinks = [
   {
@@ -54,9 +55,23 @@ export const brProjectsData = [
     githubLink: "https://github.com/vicovaporub/tictactoe-app",
   },
   {
-    title: "Timezone Checker",
+    title: "Conversor BRL(R$)",
     description:
-      "Simples página que mostra o fuso horário entre São Paulo e Los Angeles.",
+      "Simples conversor de Real Brasileiro para outras moedas, utilizando uma API contendo a cotação das moedas para dólar e fazendo o cálculo ao clicar no botão.",
+    tags: [
+      "Conversor de Moedas",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "React",
+    ],
+    imageUrl: currencyExchangeImg,
+    githubLink: "https://github.com/vicovaporub/brl-currency-exchange-app",
+  },
+  {
+    title: "Fuso Horário",
+    description:
+      "Simples pagina utiliza uma API de fuso horário no mundo e mostra a hora atual em São Paulo (fixo) e em outras cidades, tendo Los Angeles como padrão.",
     tags: ["React", "Timezone API", "TypeScript", "Tailwind CSS"],
     imageUrl: timezoneImg,
     githubLink: "https://github.com/vicovaporub/timezone-app",
