@@ -84,12 +84,12 @@ export const brProjectsData = [
     githubLink: "https://github.com/vicovaporub/cake-shuffler-frontend",
   },
   {
-    title: "Portifólio",
+    title: "Portfólio",
     description:
       "Esta página que você está vendo agora. Foi construída com Next.js e Tailwind CSS. Tem um modo escuro e claro, tem um seletor de idioma (en-US -> pt-BR) e é responsiva.",
-    tags: ["Portifolio", "Next.js", "Tailwind CSS", "React"],
+    tags: ["Portfolio", "Next.js", "Tailwind CSS", "React"],
     imageUrl: portifolioPageImg,
-    githubLink: "https://github.com/vicovaporub/portifolio",
+    githubLink: "https://github.com/vicovaporub/portfolio-page",
   },
   {
     title: "Relógio Pomodoro",

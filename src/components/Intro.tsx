@@ -11,7 +11,7 @@ const EnIntro = () => {
   return (
     <div>
       Hello, my name is <span className="font-bold">Victor</span>, welcome to my{" "}
-      <span className="italic">Portifolio Page</span> built with{" "}
+      <span className="italic">Portfolio Page</span> built with{" "}
       <span className="font-bold">Next.js</span> and styled with{" "}
       <span className="font-bold">Tailwind</span>. I'm an aspiring{" "}
       <span className="font-bold">web developer</span> and started my coding
@@ -27,7 +27,7 @@ const PtbrIntro = () => {
   return (
     <div>
       Olá, meu nome é <span className="font-bold">Victor</span> e este é o meu{" "}
-      <span className="italic">Portifolio</span>, ele foi produzido utilizando{" "}
+      <span className="italic">Portfolio</span>, ele foi produzido utilizando{" "}
       <span className="font-bold">Next.js</span> e estilizado com{" "}
       <span className="font-bold">Tailwind</span>. Sou um{" "}
       <span className="font-bold">desenvolvedor web</span> em formação e comecei

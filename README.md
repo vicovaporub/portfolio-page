@@ -1,4 +1,4 @@
-# This is my personal Portifolio Page
+# This is my personal Portfolio Page
 
 ## You can access it [HERE](https://portifolio-six-pied-77.vercel.app)
 
