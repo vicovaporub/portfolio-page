@@ -13,6 +13,7 @@ import cFrontEndAlura from "../public/certificationImgs/cFrontEndAlura.jpg";
 import timezoneImg from "../public/projectImgs/timezoneImg.jpg";
 import portifolioPageImg from "../public/projectImgs/portifolioPageImg.jpg";
 import currencyExchangeImg from "../public/projectImgs/currencyExchangeImg.jpg";
+import docesPageImg from "../public/projectImgs/docesPageImg.png";
 
 export const links = [
   {
@@ -38,6 +39,22 @@ export const links = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Bakery Shop",
+    description:
+      "Simple page for a friend's business. It's a online bakery shop that stores data from users and orders in a MongoDB database and displays when the users order is accepted.",
+    tags: [
+      "React",
+      "Next.js",
+      "MongoDB",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux",
+      "Redux Toolkit",
+    ],
+    imageUrl: docesPageImg,
+    githubLink: "https://github.com/vicovaporub/doces-page",
+  },
   {
     title: "Pokedex",
     description:

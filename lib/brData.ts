@@ -13,6 +13,7 @@ import cFrontEndAlura from "../public/certificationImgs/cFrontEndAlura.jpg";
 import timezoneImg from "../public/projectImgs/timezoneImg.jpg";
 import portifolioPageImg from "../public/projectImgs/portifolioPageImg.jpg";
 import currencyExchangeImg from "../public/projectImgs/currencyExchangeImg.jpg";
+import docesPageImg from "../public/projectImgs/docesPageImg.png";
 
 export const brLinks = [
   {
@@ -38,6 +39,22 @@ export const brLinks = [
 ] as const;
 
 export const brProjectsData = [
+  {
+    title: "Confeitaria",
+    description:
+      "Página para a loja online de uma amiga. É uma loja de doces online que armazena dados de usuários e seus pedidos em um banco de dados MongoDB e exibe quando o pedido do usuário é aceito.",
+    tags: [
+      "React",
+      "Next.js",
+      "MongoDB",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux",
+      "Redux Toolkit",
+    ],
+    imageUrl: docesPageImg,
+    githubLink: "https://github.com/vicovaporub/doces-page",
+  },
   {
     title: "Pokédex",
     description:
