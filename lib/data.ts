@@ -42,7 +42,7 @@ export const projectsData = [
   {
     title: "Bakery Shop",
     description:
-      "Simple page for a friend's business. It's a online bakery shop that stores data from users and orders in a MongoDB database and displays when the users order is accepted.",
+      "Online shop for a friend's business. It's a online bakery shop that stores data from users and orders in a MongoDB database and displays when the users order is accepted.",
     tags: [
       "React",
       "Next.js",
