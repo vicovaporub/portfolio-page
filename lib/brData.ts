@@ -212,4 +212,5 @@ export const skillsData = [
   "MongoDB",
   "Express.js",
   "PostgreSQL",
+  "Redux",
 ] as const;
