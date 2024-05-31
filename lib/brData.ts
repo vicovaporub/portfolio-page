@@ -14,6 +14,8 @@ import timezoneImg from "../public/projectImgs/timezoneImg.jpg";
 import portifolioPageImg from "../public/projectImgs/portifolioPageImg.jpg";
 import currencyExchangeImg from "../public/projectImgs/currencyExchangeImg.jpg";
 import docesPageImg from "../public/projectImgs/docesPageImg.png";
+import cScientificComputing from "../public/certificationImgs/cScientificComputingWithPython.jpg"
+import cDataAnalysis from '../public/certificationImgs/cDataAnalysisWithPython.jpg'
 
 export const brLinks = [
   {
@@ -197,6 +199,26 @@ export const brCertificationData = [
     certificationUrl:
       "https://www.freecodecamp.org/certification/victorwho/javascript-algorithms-and-data-structures-v8",
   },
+  {
+    title: "Scientific Computing with Python",
+    institution: "freeCodeCamp",
+    description:
+      "Este curso ensina a usar Python para resolver problemas de matemática, ciência da computação e engenharia. Ele cobre os conceitos básicos de Python, como variáveis, tipos de dados, loops, funções e manipulação de arquivos.",
+    date: "2024",
+    imageUrl: cScientificComputing,
+    certificationUrl:
+      "https://www.freecodecamp.org/certification/victorwho/scientific-computing-with-python-v7",
+  },
+  {
+    title: "Data Analysis with Python",
+    institution: "freeCodeCamp",
+    description:
+      "Este curso ensina a usar Python para análise de dados. Você aprenderá a usar a biblioteca Pandas para manipular dados, a biblioteca Matplotlib para visualização de dados e a biblioteca Scipy para análise estatística.",
+    date: "2024",
+    imageUrl: cDataAnalysis,
+    certificationUrl:
+      "https://www.freecodecamp.org/certification/victorwho/data-analysis-with-python-v7",
+  },
 ] as const;
 
 export const skillsData = [
@@ -213,4 +235,8 @@ export const skillsData = [
   "Express.js",
   "PostgreSQL",
   "Redux",
+  "Python",
+  "Pandas",
+  "Matplotlib",
+  'NumPy'
 ] as const;

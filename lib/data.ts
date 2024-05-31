@@ -14,6 +14,8 @@ import timezoneImg from "../public/projectImgs/timezoneImg.jpg";
 import portifolioPageImg from "../public/projectImgs/portifolioPageImg.jpg";
 import currencyExchangeImg from "../public/projectImgs/currencyExchangeImg.jpg";
 import docesPageImg from "../public/projectImgs/docesPageImg.png";
+import cScientificComputing from "../public/certificationImgs/cScientificComputingWithPython.jpg"
+import cDataAnalysis from '../public/certificationImgs/cDataAnalysisWithPython.jpg'
 
 export const links = [
   {
@@ -198,6 +200,28 @@ export const certificationData = [
     certificationUrl:
       "https://www.freecodecamp.org/certification/victorwho/javascript-algorithms-and-data-structures-v8",
   },
+  {
+    title: "Scientific Computing with Python",
+    institution: "freeCodeCamp",
+    description:
+      "The Scientific Computing with Python (Beta) curriculum will equip you with the skills to analyze and manipulate data using Python, a powerful and versatile programming language. You'll learn key concepts like data structures, algorithm, Object Oriented Programming, and how to perform complex calculations using a variety of tools.",
+    date: "2024",
+    imageUrl: cScientificComputing,
+    certificationUrl:
+      "https://www.freecodecamp.org/certification/victorwho/scientific-computing-with-python-v7",
+
+  },
+  {
+    title: "Data Analysis with Python",
+    institution: "freeCodeCamp",
+    description:
+      "In the Data Analysis with Python Certification, you'll learn the fundamentals of data analysis with Python. By the end of this certification, you'll know how to read data from sources like CSVs and SQL, and how to use libraries like Numpy, Pandas, Matplotlib, and Seaborn to process and visualize data.",
+    date: "2024",
+    imageUrl: cDataAnalysis,
+    certificationUrl:
+      "https://www.freecodecamp.org/certification/victorwho/data-analysis-with-python-v7",
+
+  }
 ] as const;
 
 export const skillsData = [
@@ -214,4 +238,8 @@ export const skillsData = [
   "Express.js",
   "PostgreSQL",
   "Redux",
+  "Python",
+  'Pandas',
+  `Matplotlib`,
+  'NumPy',
 ] as const;
