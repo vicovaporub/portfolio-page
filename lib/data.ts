@@ -14,8 +14,8 @@ import timezoneImg from "../public/projectImgs/timezoneImg.jpg";
 import portifolioPageImg from "../public/projectImgs/portifolioPageImg.jpg";
 import currencyExchangeImg from "../public/projectImgs/currencyExchangeImg.jpg";
 import docesPageImg from "../public/projectImgs/docesPageImg.png";
-import cScientificComputing from "../public/certificationImgs/cScientificComputingWithPython.jpg"
-import cDataAnalysis from '../public/certificationImgs/cDataAnalysisWithPython.jpg'
+import cScientificComputing from "../public/certificationImgs/cScientificComputingWithPython.jpg";
+import cDataAnalysis from "../public/certificationImgs/cDataAnalysisWithPython.jpg";
 
 export const links = [
   {
@@ -209,7 +209,6 @@ export const certificationData = [
     imageUrl: cScientificComputing,
     certificationUrl:
       "https://www.freecodecamp.org/certification/victorwho/scientific-computing-with-python-v7",
-
   },
   {
     title: "Data Analysis with Python",
@@ -220,8 +219,7 @@ export const certificationData = [
     imageUrl: cDataAnalysis,
     certificationUrl:
       "https://www.freecodecamp.org/certification/victorwho/data-analysis-with-python-v7",
-
-  }
+  },
 ] as const;
 
 export const skillsData = [
@@ -239,7 +237,8 @@ export const skillsData = [
   "PostgreSQL",
   "Redux",
   "Python",
-  'Pandas',
+  "Pandas",
   `Matplotlib`,
-  'NumPy',
+  "NumPy",
+  "Docker",
 ] as const;

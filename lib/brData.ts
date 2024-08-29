@@ -14,8 +14,8 @@ import timezoneImg from "../public/projectImgs/timezoneImg.jpg";
 import portifolioPageImg from "../public/projectImgs/portifolioPageImg.jpg";
 import currencyExchangeImg from "../public/projectImgs/currencyExchangeImg.jpg";
 import docesPageImg from "../public/projectImgs/docesPageImg.png";
-import cScientificComputing from "../public/certificationImgs/cScientificComputingWithPython.jpg"
-import cDataAnalysis from '../public/certificationImgs/cDataAnalysisWithPython.jpg'
+import cScientificComputing from "../public/certificationImgs/cScientificComputingWithPython.jpg";
+import cDataAnalysis from "../public/certificationImgs/cDataAnalysisWithPython.jpg";
 
 export const brLinks = [
   {
@@ -238,5 +238,6 @@ export const skillsData = [
   "Python",
   "Pandas",
   "Matplotlib",
-  'NumPy'
+  "NumPy",
+  "Docker",
 ] as const;
